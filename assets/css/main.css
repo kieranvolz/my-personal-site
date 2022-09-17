@@ -1306,7 +1306,9 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background:linear-gradient(-45deg,#3d6cb9, #00fff0);
+
+		/* background-image: url("images/overlay.png"), url("images/bg.jpg"); */
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1332,11 +1334,17 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
+
+
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
 				font-size: 15pt;
 			}
+
+
+
 
 		}
 
@@ -1579,6 +1587,7 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
+				height: auto; 
 			}
 
 /* Button */
@@ -2010,7 +2019,7 @@ input, select, textarea {
 					height: 100%;
 				}
 
-					#main > .panel.intro .pic:before {
+					/* #main > .panel.intro .pic:before {
 						content: '';
 						position: absolute;
 						top: 0;
@@ -2019,9 +2028,9 @@ input, select, textarea {
 						width: 100%;
 						height: 100%;
 						z-index: 1;
-					}
+					} */
 
-					#main > .panel.intro .pic img {
+					/* #main > .panel.intro .pic img {
 						position: relative;
 						display: block;
 						position: absolute;
@@ -2037,9 +2046,9 @@ input, select, textarea {
 						-webkit-object-position: center;
 						-ms-object-position: center;
 						object-position: center;
-					}
+					} */
 
-					#main > .panel.intro .pic .arrow {
+					/* #main > .panel.intro .pic .arrow {
 						display: block;
 						position: absolute;
 						right: 0;
@@ -2074,7 +2083,7 @@ input, select, textarea {
 					#main > .panel.intro .pic:hover .arrow {
 						width: 3em;
 						padding-right: 0.25em;
-					}
+					} */
 
 				#main > .panel.intro header {
 					-moz-flex-grow: 1;
