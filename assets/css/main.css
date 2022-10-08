@@ -1556,6 +1556,8 @@ input, select, textarea {
 
 	.image {
 		display: inline-block;
+					margin-bottom: -4.5em;
+
 	}
 
 		.image img {
@@ -2022,28 +2024,18 @@ input, select, textarea {
 				
 /* playing with a new idea */
 				  .box {
-					// height: 100%;
-					// width: 100%;
-					// overflow: hidden;
-					border: 1px solid red;
-					// background: #ff0;
+					 overflow: hidden;
+					/* border: 1px solid red; */
+									/* margin: auto; */
+
 				  }
 				  .hid-box {
-					top: -85%;
+					bottom: 30%;
 					position:relative;
-/*					-moz-transition: opacity .25s ease-in-out;
-					-webkit-transition: opacity .25s ease-in-out;
-					-ms-transition: opacity .25s ease-in-out;
-					
-					*/
 					-moz-transition: all .25s ease-out;
 					-webkit-transition: all .25s ease-out;
 					-ms-transition: all .25s ease-out;
 					transition: all .25s ease-out;
-
-					// background: #428bca;
-					height: 90%;
-					// width: 100%;
 					opacity: 0;
 
 					
@@ -2051,27 +2043,41 @@ input, select, textarea {
 				  .box > img { z-index: 0;}
 				  .hid-box > a{
 					z-index: 1;
+					margin: auto;
+
+				  }
+
+
+				  .hid-box :first-child{
+					margin-bottom: 0.75em;
 				  }
 
 				  .link-button {
-					/*
-					margin-left: -2.75em;
-*/
 				display: block;
 				font-size: 1.1em;
 				height: 2.25em;
 				line-height: 2.25em;
-				width: 5.5em;
-				margin: 0.25em;
-				padding: 0.3em 0.75em ;
+				width: 5em;
+				padding:0 0 0 1em ;
 				font-family: 'Source Sans Pro', sans-serif;
 				text-decoration: none;
 					background-color: #222222;
 					color: #FFFFFF;
+					-moz-transition: all .25s ease-out;
+					-webkit-transition: all .25s ease-out;
+					-ms-transition: all .25s ease-out;
+					transition: all .25s ease-out;
+
+				  }
+
+				  .link-button:hover{
+					background-color: #FFFFFF;
+					color: #222222;
+					
 				  }
 				  
 				  .box:hover > .hid-box{
-					top: -90%; 
+					bottom: 35%; 
 					opacity: 100%;
 
 				  }
